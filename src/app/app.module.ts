@@ -11,6 +11,7 @@ import { LastnamePipe } from './shared/pipes/lastname-pipe';
 import {FormsModule} from "@angular/forms";
 import {NgxMaskModule} from "ngx-mask";
 import {ReactiveFormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     BrowserModule,
     ReactiveFormsModule,
     FormsModule,
-    NgxMaskModule.forRoot(/*options*/)
+    NgxMaskModule.forRoot(/*options*/),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,25 @@
+{
+  "persons": [
+    {
+      "firstname": "Renat",
+      "lastname": "Gazratov",
+      "phone": "9188426656",
+      "id": 1
+    },
+    {
+      "firstname": "Renat",
+      "lastname": "Gazratov",
+      "phone": "9188426656",
+      "id": 2
+    },
+    {
+      "firstname": "Renat",
+      "lastname": "Gazratov",
+      "phone": "9188426656",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
